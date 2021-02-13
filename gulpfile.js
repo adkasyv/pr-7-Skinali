@@ -23,7 +23,7 @@ function html() {
 }
 
 function styl() {
-    return src('src/stylus/main.styl')
+    return src('src/stylus/style.styl')
         .pipe(sourcemaps.init())
         .pipe(stylus())
         .pipe(autoprefixer({
