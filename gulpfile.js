@@ -44,7 +44,7 @@ function scripts() {
 
 // img
 function img() {
-    return src('src/accepts/img/**/*')  
+    return src('src/assets/img/**/*')  
         .pipe(dest('dist/img/'));
 }
 
