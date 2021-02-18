@@ -1,3 +1,29 @@
 .footer
-    margin-bottom 10em
-    // &-inner
+    margin 10em
+    &-inner
+        .footer-description
+            .footer-img
+                display: block;
+                margin: 0 auto
+        .footer-bottom
+            display grid
+            grid-template-columns: repeat(3, 1fr)
+            grid-gap 3em
+            margin 5em 0
+            .footer-item
+                .item-aspect-1
+                    display flex
+                    margin-top 1em
+                    .item-row-0
+                        margin-right 5em
+                .footer-detail
+                    margin-bottom 1em
+        .footer-link    
+            display flex
+            justify-content space-between
+            .footer-soc
+                display flex 
+                .soc-img
+                    margin-right 10px
+                    width 30px
+                    height 30px
